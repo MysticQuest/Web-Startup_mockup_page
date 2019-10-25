@@ -1,0 +1,163 @@
+/* ---------------------------General Theme---------------------------- */
+/*font-family: 'Ubuntu', sans-serif;*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 8rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  text-align: center;
+}
+
+/* -----------------------------Title--------------------------------- */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+/* #title .container-fluid{} */
+.promo-heading {
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 20%;
+  position: absolute;
+}
+
+/* ------------------------Navigation Bar---------------------------- */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: Montserrat;
+}
+
+/* ------------------------Download Buttons---------------------------- */
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+/* ----------------------------Features------------------------------- */
+#features {
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  /* "3D" effect*/
+  /* top: 20px; */
+}
+
+.feature-box {
+  padding: 5%;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* ---------------------------Testimonials------------------------------- */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.carousel-container {
+  height: 600px;
+}
+
+.item1 {
+  padding: 8% 12%;
+}
+
+.item2 {
+  padding: 8% 10%;
+}
+
+.image-icon {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 1%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* -----------------------------Pricing-------------------------------- */
+#pricing {
+  padding: 5rem 10rem;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+/* ------------------------Bottom Miscelaneous-------------------------- */
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 20% 6% 20%;
+  color: #fff;
+}
+
+.cta-text {
+  font-size: 3.5rem;
+}
+
+/* -------------------------------Footer------------------------------- */
+#footer {
+  padding: 3% 15%;
+}
+
+.footer-icons {
+  margin: 1rem;
+}
