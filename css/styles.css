@@ -161,3 +161,44 @@ body {
 .footer-icons {
   margin: 1rem;
 }
+
+/* -----------------------------Scalability---------------------------- */
+@media (max-width: 1048px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    line-height: 1.3;
+    padding: 0 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: auto;
+  }
+
+  .carousel-container {
+    height: 500px;
+  }
+
+  .misc-text {
+    font-size: 1.3rem;
+  }
+
+  #pricing {
+    padding: 5rem 2rem;
+  }
+}
