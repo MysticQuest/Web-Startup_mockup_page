@@ -31,6 +31,10 @@ body {
   text-align: left;
 }
 
+.tm {
+  font-size: 0.5rem;
+}
+
 /* #title .container-fluid{} */
 .promo-heading {
   font-weight: 900;
